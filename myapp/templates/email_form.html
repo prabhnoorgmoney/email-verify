@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Validator</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <label for="email">Enter email:</label>
+        <input type="text" id="email" name="email">
+        <button type="submit">Verify</button>
+    </form>
+    <p>{{ message }}</p>
+</body>
+</html>
+
