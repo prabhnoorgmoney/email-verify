@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-fmb-z!tfrgem+-qc_2-4bfba8iifasy9j6(g@(%fgl53(!4vn-
 DEBUG = False
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
